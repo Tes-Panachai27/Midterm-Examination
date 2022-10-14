@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function (){
     document.querySelector('form').onsubmit = function () {
-    const sensor = document.querySelector('#type').value;   
+    var sensor = document.querySelector('#type').value;   
         if(sensor == "flow"){
             fetch('https://midterm-exam-010723313-2022.herokuapp.com/device?sensor_type=flow-transducer')
             .then(response => response.json())

@@ -151,15 +151,3 @@ input:focus{
     transition: .5s;
     box-shadow:#ccc 2px 2px 15px;
 }
-
-#M1{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#M1 > div{
-    font-size: 20px;
-    margin: 20px;
-    padding: 20;
-    width: 200px;
-}
